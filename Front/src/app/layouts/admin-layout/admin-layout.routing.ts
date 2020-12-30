@@ -1,21 +1,17 @@
 import { Routes } from '@angular/router';
 
-import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
-import { UserComponent } from '../../pages/user/user.component';
-import { TableComponent } from '../../pages/table/table.component';
-import { TypographyComponent } from '../../pages/typography/typography.component';
-import { IconsComponent } from '../../pages/icons/icons.component';
-import { MapsComponent } from '../../pages/maps/maps.component';
-import { NotificationsComponent } from '../../pages/notifications/notifications.component';
-import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
+import { IdeiaComponent } from 'app/pages/ideia/ideia.component';
+import { InicioComponent } from 'app/pages/inicio/inicio.component';
+import { PlanilhandoComponent } from 'app/pages/planilhando/planilhando.component';
+import { OpcoesComponent } from 'app/pages/opcoes/opcoes.component';
+import { EvoluindoComponent } from 'app/pages/evoluindo/evoluindo.component';
+
+
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'dashboard',      component: DashboardComponent },
-    { path: 'user',           component: UserComponent },
-    { path: 'table',          component: TableComponent },
-    { path: 'typography',     component: TypographyComponent },
-    { path: 'icons',          component: IconsComponent },
-    { path: 'maps',           component: MapsComponent },
-    { path: 'notifications',  component: NotificationsComponent },
-    { path: 'upgrade',        component: UpgradeComponent }
+    { path: 'ideia',          component: IdeiaComponent },
+    { path: 'inicio',         component: InicioComponent },
+    { path: 'planilhando',    component: PlanilhandoComponent },
+    { path: 'opcoes',         component: OpcoesComponent },
+    { path: 'evoluindo',      component: EvoluindoComponent }
 ];
