@@ -1,3 +1,4 @@
+pause
 rd /q /s casafinanca
 pause
 rename dist casafinanca
